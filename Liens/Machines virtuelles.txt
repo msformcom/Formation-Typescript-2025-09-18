@@ -1,0 +1,16 @@
+Accès aux machines virtuelles :
+
+Lien : https://lab.ib-formation.fr/
+
+Session: 25201299
+Salle: Labo15
+Formateur: DMS
+Date de début: 2025-09-18
+Salle	Poste	Username	Password
+Labo15	Poste00	ib.51150018	gt2J4F9e
+Labo15	Poste01	nicolas.broders18	NmQrVRdF
+Labo15	Poste02	philippe.canova18	c4TrnRFB
+Labo15	Poste03	gaspard.desmoulins18	2K6NC8Y4
+Labo15	Poste04	alexandre.merignac18	9F7h4tkW
+Labo15	Poste05	jaoudat.salbabal18	KvqkCHcx
+Labo15	Poste06	alexia.yaguez18	ZDjWgMVt

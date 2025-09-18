@@ -2,12 +2,12 @@
   // Visit https://aka.ms/tsconfig to read more about this file
   "compilerOptions": {
     // File Layout
-    // "rootDir": "./src",
-    // "outDir": "./dist",
+   "rootDir": "./src",
+   "outDir": "./wwwroot",
 
     // Environment Settings
     // See also https://aka.ms/tsconfig/module
-    "module": "nodenext",
+    "module": "es2015",
     "target": "es2015",
     "types": [],
     // For nodejs:
@@ -16,9 +16,11 @@
     // and npm install -D @types/node
 
     // Other Outputs
-    "sourceMap": true,
-    "declaration": true,
-    "declarationMap": true,
+     "sourceMap": false,
+     "declaration": true,
+     "declarationMap": true,
+    "inlineSources": true,
+    "inlineSourceMap": true,
 
     // Stricter Typechecking Options
     "noUncheckedIndexedAccess": true,

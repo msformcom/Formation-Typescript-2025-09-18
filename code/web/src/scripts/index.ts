@@ -8,9 +8,14 @@ import * as classes from "./voiture.js"; // classes. => toutes ce qui est export
 
 
 (async function(){
-    let p=Promise.resolve(4);
-    let r= await p;
-    let v=new classes.Voiture();
+    let v=new Voiture("Peugeot","208","Toto");
+    let m:string=v.marque;
+    v.proprietaire="toto";  // set prorietaire execute dans la classe avec un parametre "toto"
+    let p=v.proprietaire;// get prorietaire execute dans la classe 
+
+    let v2=new Voiture("Peugeot","208");
+    let v3=new Voiture("Peugeot","208",5000);
+
 })();
 
    

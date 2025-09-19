@@ -6,7 +6,7 @@ export abstract class  Animal{
     abstract crier():string;
 }
 
-class Produit{
+export class Produit{
     prix:number=1000000;
 }
 

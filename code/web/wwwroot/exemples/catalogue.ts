@@ -1,7 +1,8 @@
 import { Chat } from "./abstract";
 import { Chien, Fourchette, IProduit } from "./interfaces";
 
-let tableau=new Array<IProduit>();
+//let tableau=new Array<IProduit>();
+let tableau : IProduit[]=[]
 // Types typescript
 // unknown = inconnu
 // any = n'importe quel type

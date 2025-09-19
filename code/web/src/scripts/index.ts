@@ -6,7 +6,6 @@ import { Voiture as V } from "./voiture.js"; // alias pour la classe Voiture
 import * as classes from "./voiture.js"; // classes. => toutes ce qui est exporté dans voiture.js
 
 
-
 (async function(){
     let v=new Voiture("Peugeot","208","Toto");
     let m:string=v.marque;
@@ -15,7 +14,7 @@ import * as classes from "./voiture.js"; // classes. => toutes ce qui est export
 
     let v2=new Voiture("Peugeot","208");
     let v3=new Voiture("Peugeot","208",5000);
-
+ 
 })();
 
    

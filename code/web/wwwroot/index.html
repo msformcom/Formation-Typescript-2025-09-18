@@ -6,8 +6,26 @@
     <title>Document</title>
 
     <!-- script chargé en tant que module => possiblité import / export-->
+      <script src="scripts/jquery.js" ></script>
     <script src="scripts/index.js" type="module"></script>
+<script>
+function *entiers(){
+  let i=0;
+  while(true){
+    yield i;
+    i++;
+  }
 
+}
+let suite=entiers();
+
+for(let e of suite ){
+    console.log(e);
+    if(false){
+        break;
+    }
+}
+</script>
   
 </head>
 <body>
